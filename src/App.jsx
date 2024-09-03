@@ -7,6 +7,7 @@ import Thanks from "./components/Thanks";
 
 // Hooks
 import { useForm } from "./hooks/userForm";
+import Steps from "./components/Steps";
 
 function App() {
   const formComponents = [
@@ -27,7 +28,7 @@ function App() {
         </p>
       </div>
       <div className="form-container">
-        <p>etapas</p>
+        <Steps currentStep={currentStep} />
         <form action="" onSubmit={(e) => changeStep(currentStep + 1, e)}>
           <div className="inputs-container">{currentComponent}</div>
           <div className="actions">
