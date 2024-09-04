@@ -10,8 +10,9 @@ Este projeto foi criado com o [React](https://reactjs.org/) versão 18.3.1.
 
 ## 🚀 Como instalar
 - Baixe ou clone este repositório usando `git clone https://github.com/koyama8/React-Form.git`;
-- Entre no diretório do projeto: `formulario`.
+- Entre no diretório do projeto: `React-Form-master`.
 - Instale as dependências do projeto com o npm: `npm install`
+-  Instale as dependências do projeto com o npm: `npm install react-icons`
 - Inicie o servidor de desenvolvimento: `npm run dev`
   
 
